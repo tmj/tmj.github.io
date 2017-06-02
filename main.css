@@ -198,6 +198,60 @@ h1 {
 #knight2 div.s15{ top: 1380px; left: 85px; background-position: -10px -1370px;}
 #knight2 div.s15:hover:after{ background-position: -0px -1370px;}
 
+#monk1 div, #monk1 div:after{background-image: url('img/monk1.jpg');}
+#monk1 div.s1{ top: 820px; left: 305px;}
+#monk1 div.s2{ top: 860px; left: 305px;}
+#monk1 div.s3{ top: 900px; left: 305px; background-position: -10px -245px;}
+#monk1 div.s4{ top: 940px; left: 305px; background-position: -330px -245px;}
+#monk1 div.s5{ top: 980px; left: 305px; background-position: -10px -480px;}
+#monk1 div.s5:hover:after{ background-position: 0px -470px;}
+#monk1 div.s6{ top: 1020px; left: 305px;background-position: -330px -480px;}
+#monk1 div.s6:hover:after{ background-position: -320px -470px;}
+#monk1 div.s7{ top: 1060px; left: 305px;background-position: -10px -685px;}
+#monk1 div.s7:hover:after{ background-position: -0px -680px;}
+#monk1 div.s8{ top: 1100px; left: 305px;background-position: -330px -685px;}
+#monk1 div.s8:hover:after{ background-position: -320px -730px;}
+#monk1 div.s9{ top: 1140px; left: 305px;background-position: -10px -945px;}
+#monk1 div.s9:hover:after{ background-position: 0px -940px;}
+#monk1 div.s10{ top: 1180px; left: 305px;background-position: -330px -945px;}
+#monk1 div.s10:hover:after{ background-position: -320px -940px;}
+#monk2 div, #monk2 div:after{background-image: url('img/monk2.jpg');}
+#monk2 div.s1{ top: 820px; left: 345px;}
+#monk2 div.s2{ top: 860px; left: 345px;}
+#monk2 div.s3{ top: 900px; left: 345px; background-position: -10px -280px;}
+#monk2 div.s3:hover:after{ background-position: 0px -280px;}
+#monk2 div.s4{ top: 940px; left: 345px; background-position: -330px -280px;}
+#monk2 div.s4:hover:after{ background-position: -330px -280px;}
+#monk2 div.s5{ top: 980px; left: 345px; background-position: -10px -488px;}
+#monk2 div.s5:hover:after{ background-position: 0px -480px;}
+#monk2 div.s6{ top: 1020px; left: 345px; background-position: -330px -488px;}
+#monk2 div.s6:hover:after{ background-position: -330px -480px;}
+#monk2 div.s7{ top: 1060px; left: 345px;  background-position: -10px -683px;}
+#monk2 div.s7:hover:after{ background-position: 0px -680px;}
+#monk2 div.s8{ top: 1100px; left: 345px;  background-position: -330px -683px;}
+#monk2 div.s8:hover:after{ background-position: -330px -680px;}
+#monk2 div.s9{ top: 1140px; left: 345px;  background-position: -10px -854px;}
+#monk2 div.s9:hover:after{ background-position: 0px -850px;}
+#monk2 div.s10{ top: 1180px; left: 345px; background-position: -330px -854px;}
+#monk2 div.s10:hover:after{ background-position: -330px -850px;}
+#monk2 div.s11{ top: 1220px; left: 345px; background-position: -10px -1022px;}
+#monk2 div.s11:hover:after{ background-position: 0px -1060px;}
+#monk2 div.s12{ top: 1260px; left: 345px; background-position: -330px -1022px;}
+#monk2 div.s12:hover:after{ background-position: -320px -1020px;}
+#monk2 div.s13{ top: 1300px; left: 345px; background-position: -10px -1265px;}
+#monk2 div.s13:hover:after{ background-position: 0px -1260px;}
+#monk2 div.s14{ top: 1340px; left: 345px; background-position: -330px -1265px;}
+#monk2 div.s14:hover:after{ background-position: -320px -1260px;}
+#monk2 div.s15{ top: 1380px; left: 345px; background-position: -10px -1450px;}
+#monk2 div.s15:hover:after{ background-position: 0px -1450px;}
+#monk2 div.s16{ top: 1420px; left: 345px; background-position: -330px -1450px;}
+#monk2 div.s16:hover:after{ background-position: -320px -1450px;}
+#monk2 div.s17{ top: 1380px; left: 305px; background-position: -10px -1626px;}
+#monk2 div.s17:hover:after{ background-position: 0px -1620px;}
+#monk2 div.s18{ top: 1420px; left: 305px; background-position: -330px -1626px;}
+#monk2 div.s18:hover:after{ background-position: -320px -1620px;}
+
+
 
 /* drag system */
 .drag {
