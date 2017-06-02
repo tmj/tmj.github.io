@@ -23,11 +23,10 @@ h1 {
 .bg {
   width: auto;
   height: auto;
-}
-.bg_bard {
-  top: 200px;
   right: 20px;
 }
+.bg_bard {top: 200px;}
+.bg_knight {top: 300px;}
 .dad:hover:after {
   background: red;
   content: '';
