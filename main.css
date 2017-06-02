@@ -1,5 +1,6 @@
 html {
   background: radial-gradient(#999, #eee);
+  width: 1200px;
 }
 h1 {
   font-size: 1.2em;
@@ -18,6 +19,14 @@ h1 {
     height: 38px;
     position: absolute;
     width: 38px;
+}
+.bg {
+  width: auto;
+  height: auto;
+}
+.bg_bard {
+  top: 200px;
+  right: 20px;
 }
 .dad:hover:after {
   background: red;
@@ -251,6 +260,49 @@ h1 {
 #monk2 div.s18{ top: 1420px; left: 305px; background-position: -330px -1626px;}
 #monk2 div.s18:hover:after{ background-position: -320px -1620px;}
 
+#white1 div, #white1 div:after{background-image: url('img/white1.jpg');}
+#white1 div.s1{ top: 820px; left: 820px;}
+#white1 div.s2{ top: 860px; left: 820px;}
+#white1 div.s3{ top: 900px; left: 820px; background-position: -10px -233px;}
+#white1 div.s4{ top: 940px; left: 820px; background-position: -330px -233px;}
+#white1 div.s5{ top: 980px; left: 820px; background-position: -10px -402px;}
+#white1 div.s6{ top: 1020px; left: 820px;background-position: -330px -402px;}
+#white1 div.s7{ top: 1060px; left: 820px;background-position: -10px -548px;}
+#white1 div.s8{ top: 1100px; left: 820px;background-position: -330px -548px;}
+#white1 div.s9{ top: 1140px; left: 820px;background-position: -10px -707px;}
+#white1 div.s9:hover:after{ background-position: 0px -700px;}
+#white1 div.s10{ top: 1180px; left: 820px;background-position: -330px -707px;}
+#white1 div.s10:hover:after{ background-position: -320px -700px;}
+#white1 div.s11{ top: 1220px; left: 820px;background-position: -10px -866px;}
+#white1 div.s11:hover:after{ background-position: 0px -860px;}
+#white1 div.s12{ top: 1260px; left: 820px;background-position: -330px -866px;}
+#white1 div.s12:hover:after{ background-position: -320px -860px;}
+
+#white2 div, #white2 div:after{background-image: url('img/white2.jpg');}
+#white2 div.s1{ top: 820px; left: 860px;}
+#white2 div.s2{ top: 860px; left: 860px;}
+#white2 div.s3{ top: 900px; left: 860px; background-position: -10px -233px;}
+#white2 div.s3:hover:after{ background-position: 0px -230px;}
+#white2 div.s4{ top: 940px; left: 860px; background-position: -330px -233px;}
+#white2 div.s4:hover:after{ background-position: -330px -230px;}
+#white2 div.s5{ top: 980px; left: 860px; background-position: -10px -418px;}
+#white2 div.s5:hover:after{ background-position: 0px -410px;}
+#white2 div.s6{ top: 1020px; left: 860px; background-position: -330px -418px;}
+#white2 div.s6:hover:after{ background-position: -320px -410px;}
+#white2 div.s7{ top: 1060px; left: 860px;  background-position: -10px -598px;}
+#white2 div.s7:hover:after{ background-position: 0px -590px;}
+#white2 div.s8{ top: 1100px; left: 860px;  background-position: -330px -598px;}
+#white2 div.s8:hover:after{ background-position: -320px -590px;}
+#white2 div.s9{ top: 1140px; left: 860px;  background-position: -10px -784px;}
+#white2 div.s9:hover:after{ background-position: 0px -780px;}
+#white2 div.s10{ top: 1180px; left: 860px; background-position: -330px -784px;}
+#white2 div.s10:hover:after{ background-position: -320px -780px;}
+#white2 div.s11{ top: 1220px; left: 860px; background-position: -10px -943px;}
+#white2 div.s11:hover:after{ background-position: 0px -940px;}
+#white2 div.s12{ top: 1260px; left: 860px; background-position: -330px -943px;}
+#white2 div.s12:hover:after{ background-position: -320px -940px;}
+#white2 div.s13{ top: 1300px; left: 860px; background-position: -10px -1126px;}
+#white2 div.s13:hover:after{ background-position: 0px -1180px;}
 
 
 /* drag system */
