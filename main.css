@@ -15,22 +15,20 @@ h1 {
 }
 .dad {
     cursor: move;
-    position: absolute;
-    /*z-index: 100;*/
-    width: 38px;
     height: 38px;
+    position: absolute;
+    width: 38px;
 }
 .dad:hover:after {
-  content: '';
-  position: relative;
   background: red;
+  content: '';
   display: block;
-  top: -170px;
-  right: -20px;
-  width: 330px;
   height: 170px;
+  position: relative;
+  right: -20px;
+  top: -170px;
+  width: 330px;
   z-index: 1000;
-
 }
 /* icon */
 .s1 {background-position: -10px -62px; }
@@ -69,8 +67,16 @@ h1 {
 .s16:hover:after {background-position: -320px -1542px;}
 
 #dpsL div, #dpsL div:after{background-image: url('img/dpsL.jpg');}
-#dpsL div.s1{ top: 720px; left: 510px;}
-#dpsL div.s2{ top: 720px; left: 540px;}
+#dpsL div.s1{ top: 720px; left: 490px;}
+#dpsL div.s2{ top: 720px; left: 520px;}
+#dpsL div.s3{ top: 720px; left: 550px;}
+#dpsL div.s4{ top: 720px; left: 580px;}
+#dpsL div.s5{ top: 720px; left: 610px; background-position: -10px -420px;}
+#dpsL div.s6{ top: 750px; left: 490px; background-position: -330px -420px;}
+#dpsL div.s7{ top: 750px; left: 520px; background-position: -10px -580px;}
+#dpsL div.s8{ top: 750px; left: 550px; background-position: -330px -580px;}
+#dpsL div.s9{ top: 750px; left: 580px; background-position: -10px -735px;}
+#dpsL div.s10{ top: 750px; left: 610px;background-position: -330px -735px;}
 
 #bard1 div, #bard1 div:after{background-image: url('img/bard1.jpg');}
 #bard2 div, #bard2 div:after{background-image: url('img/bard2.jpg');}
