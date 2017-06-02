@@ -2,173 +2,57 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" dir="ltr">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="main.css" media="all">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <title>FFXIV 4.0 マダー？</title>
-<style type="text/css">
-  html {
-    background: radial-gradient(#999, #eee);
-  }
-  .monitor {
-    width: 1024px;
-    height: 576px;
-    background-image: url('img/back.jpg');
-
-  }
-  .dad {
-      cursor: move;
-      position: absolute;
-      /*z-index: 100;*/
-      width: 38px;
-      height: 38px;
-  }
-  .dad:hover:after {
-    content: '';
-    position: relative;
-    background: red;
-    display: block;
-    top: -170px;
-    right: -20px;
-    width: 330px;
-    height: 170px;
-    z-index: 1000;
-
-  }
-  /* icon */
-  .s1 {background-position: -10px -62px; }
-  .s2 {background-position: -330px -62px; }
-  .s3 {background-position: -10px -232px; }
-  .s4 {background-position: -330px -232px; }
-  .s5 {background-position: -10px -402px; }
-  .s6 {background-position: -330px -402px; }
-  .s7 {background-position: -10px -562px; }
-  .s8 {background-position: -330px -562px; }
-  .s9 {background-position: -10px -722px; }
-  .s10 {background-position: -330px -722px; }
-  .s11 {background-position: -10px -1160px; }
-  .s12 {background-position: -330px -1160px; }
-  .s13 {background-position: -10px -1375px; }
-  .s14 {background-position: -330px -1375px; }
-  .s15 {background-position: -10px -1546px; }
-  .s16 {background-position: -330px -1546px; }
-
-  /* detail */
-  .s1:hover:after {background-position: 0px -55px;}
-  .s2:hover:after {background-position: -320px -55px;}
-  .s3:hover:after {background-position: 0px -225px;}
-  .s4:hover:after {background-position: -320px -225px;}
-  .s5:hover:after {background-position: 0px -395px;}
-  .s6:hover:after {background-position: -320px -395px;}
-  .s7:hover:after {background-position: 0px -555px;}
-  .s8:hover:after {background-position: -320px -555px;}
-  .s9:hover:after {background-position: 0px -725px;}
-  .s10:hover:after {background-position: -320px -725px;}
-  .s11:hover:after {background-position: 0px -1158px;}
-  .s12:hover:after {background-position: -320px -1158px;}
-  .s13:hover:after {background-position: 0px -1372px;}
-  .s14:hover:after {background-position: -320px -1372px;}
-  .s15:hover:after {background-position: 0px -1542px;}
-  .s16:hover:after {background-position: -320px -1542px;}
-
-  #bard1, #bard1:after{background-image: url('img/bard1.jpg');}
-  #bard2, #bard2:after{background-image: url('img/bard2.jpg');}
-  #bard1.s1{ top: 820px; left: 510px;}
-  #bard1.s2{ top: 860px; left: 510px;}
-  #bard1.s3{ top: 900px; left: 510px;}
-  #bard1.s4{ top: 940px; left: 510px;}
-  #bard1.s5{ top: 980px; left: 510px;}
-  #bard1.s6{ top: 1020px; left: 510px;}
-  #bard1.s7{ top: 1060px; left: 510px;}
-  #bard1.s8{ top: 1100px; left: 510px;}
-  #bard1.s9{ top: 1140px; left: 510px;}
-  #bard1.s10{ top: 1180px; left: 510px;}
-  #bard2.s1{ top: 820px; left: 540px;}
-  #bard2.s2{ top: 860px; left: 540px;}
-  #bard2.s3{ top: 900px; left: 540px; background-position: -10px -282px;}
-  #bard2.s3:hover:after{ background-position: 0px -308px;}
-  #bard2.s4{ top: 940px; left: 540px; background-position: -330px -282px;}
-  #bard2.s4:hover:after{ background-position: -320px -282px;}
-  #bard2.s5{ top: 980px; left: 540px; background-position: -10px -523px;}
-  #bard2.s5:hover:after{ background-position: 0px -520px;}
-  #bard2.s6{ top: 1020px; left: 540px; background-position: -330px -523px;}
-  #bard2.s6:hover:after{ background-position: -320px -540px;}
-  #bard2.s7{ top: 1060px; left: 540px;background-position: -10px -758px;}
-  #bard2.s7:hover:after{ background-position: 0px -755px;}
-  #bard2.s8{ top: 1100px; left: 540px; background-position: -330px -758px;}
-  #bard2.s8:hover:after{ background-position: -320px -755px;}
-  #bard2.s9{ top: 1140px; left: 540px; background-position: -10px -965px;}
-  #bard2.s9:hover:after{ background-position: 0px -965px;}
-  #bard2.s10{ top: 1180px; left: 540px; background-position: -330px -965px;}
-  #bard2.s10:hover:after{ background-position: -320px -965px;}
-  #bard2.s11{ top: 1220px; left: 540px;}
-  #bard2.s12{ top: 1260px; left: 540px;}
-  #bard2.s13{ top: 1300px; left: 540px;}
-  #bard2.s14{ top: 1340px; left: 540px;}
-  #bard2.s15{ top: 1380px; left: 540px;}
-  #bard2.s16{ top: 1420px; left: 540px;}
-
-  .drag {
-      z-index: 1001;
-      opacity: 0.5;
-      border: 2px red solid;
-  }
-  .drag:hover:after {
-    width: 0;
-  }
-
-  td {
-    vertical-align: top;
-    text-align: center;
-  }
-  .t_common {
-    height: 90px;
-  }
-  .t_uniq {
-    height: 700px;
-  }
-  .t_uniq>td {
-    background: #999;
-  }
-  .role {
-    width: 1024px;
-  }
-  .tank { background: #99d }
-  .dps_1 { background: #d9a }
-  .dps_2 { background: #da9 }
-  .dps_3 { background: #d99 }
-  .healer { background: #8d8 }
-</style>
 </head>
 
 <body>
   <h1>FFXIV 4.0 クロスホットバーシミュレーター</h1>
-  待ちきれないんだよ＞＜
-  <div class="monitor"></div>
-  <div class="dad s1" id="bard1"></div>
-  <div class="dad s2" id="bard1"></div>
-  <div class="dad s3" id="bard1"></div>
-  <div class="dad s4" id="bard1"></div>
-  <div class="dad s5" id="bard1"></div>
-  <div class="dad s6" id="bard1"></div>
-  <div class="dad s7" id="bard1"></div>
-  <div class="dad s8" id="bard1"></div>
-  <div class="dad s9" id="bard1"></div>
-  <div class="dad s10" id="bard1"></div>
-  <div class="dad s1" id="bard2"></div>
-  <div class="dad s2" id="bard2"></div>
-  <div class="dad s3" id="bard2"></div>
-  <div class="dad s4" id="bard2"></div>
-  <div class="dad s5" id="bard2"></div>
-  <div class="dad s6" id="bard2"></div>
-  <div class="dad s7" id="bard2"></div>
-  <div class="dad s8" id="bard2"></div>
-  <div class="dad s9" id="bard2"></div>
-  <div class="dad s10" id="bard2"></div>
-  <div class="dad s11" id="bard2"></div>
-  <div class="dad s12" id="bard2"></div>
-  <div class="dad s13" id="bard2"></div>
-  <div class="dad s14" id="bard2"></div>
-  <div class="dad s15" id="bard2"></div>
-  <div class="dad s16" id="bard2"></div>
+  <p>
+    スキルを選ぶと詳細が見れます。スキルをドラックして画面に配置できます。イメトレできます！
+  </p>
+  <form>
+      画像の変更はこちら（自分のスクリーンショット入れて見てね）<input type="file">
+  </form>
+  <div class="monitor">
+    <img src="img/back.jpg">
+  </div>
+  <div id="dpsL">
+    <div class="dad s1"></div>
+    <div class="dad s2"></div>
+  </div>
 
+  <div id="bard1">
+    <div class="dad s1"></div>
+    <div class="dad s2"></div>
+    <div class="dad s3"></div>
+    <div class="dad s4"></div>
+    <div class="dad s5"></div>
+    <div class="dad s6"></div>
+    <div class="dad s7"></div>
+    <div class="dad s8"></div>
+    <div class="dad s9"></div>
+    <div class="dad s10"></div>
+  </div>
+  <div id="bard2">
+    <div class="dad s1"></div>
+    <div class="dad s2"></div>
+    <div class="dad s3"></div>
+    <div class="dad s4"></div>
+    <div class="dad s5"></div>
+    <div class="dad s6"></div>
+    <div class="dad s7"></div>
+    <div class="dad s8"></div>
+    <div class="dad s9"></div>
+    <div class="dad s10"></div>
+    <div class="dad s11"></div>
+    <div class="dad s12"></div>
+    <div class="dad s13"></div>
+    <div class="dad s14"></div>
+    <div class="dad s15"></div>
+    <div class="dad s16"></div>
+  </div>
   <table class="role">
     <tr class="t_common">
       <td>共通</td>
@@ -199,87 +83,6 @@
 
   </table>
 
-  <script type="text/javascript">
-  (function(){
-
-      //要素の取得
-      var elements = document.getElementsByClassName("dad");
-
-      //要素内のクリックされた位置を取得するグローバル（のような）変数
-      var x;
-      var y;
-
-      //マウスが要素内で押されたとき、又はタッチされたとき発火
-      for(var i = 0; i < elements.length; i++) {
-          elements[i].addEventListener("mousedown", mdown, false);
-          elements[i].addEventListener("touchstart", mdown, false);
-      }
-
-      //マウスが押された際の関数
-      function mdown(e) {
-
-          //クラス名に .drag を追加
-          this.classList.add("drag");
-
-          //タッチデイベントとマウスのイベントの差異を吸収
-          if(e.type === "mousedown") {
-              var event = e;
-          } else {
-              var event = e.changedTouches[0];
-          }
-
-          //要素内の相対座標を取得
-          x = event.pageX - this.offsetLeft;
-          y = event.pageY - this.offsetTop;
-
-          //ムーブイベントにコールバック
-          document.body.addEventListener("mousemove", mmove, false);
-          document.body.addEventListener("touchmove", mmove, false);
-      }
-
-      //マウスカーソルが動いたときに発火
-      function mmove(e) {
-
-          //ドラッグしている要素を取得
-          var drag = document.getElementsByClassName("drag")[0];
-
-          //同様にマウスとタッチの差異を吸収
-          if(e.type === "mousemove") {
-              var event = e;
-          } else {
-              var event = e.changedTouches[0];
-          }
-
-          //フリックしたときに画面を動かさないようにデフォルト動作を抑制
-          e.preventDefault();
-
-          //マウスが動いた場所に要素を動かす
-          drag.style.top = event.pageY - y + "px";
-          drag.style.left = event.pageX - x + "px";
-
-          //マウスボタンが離されたとき、またはカーソルが外れたとき発火
-          drag.addEventListener("mouseup", mup, false);
-          document.body.addEventListener("mouseleave", mup, false);
-          drag.addEventListener("touchend", mup, false);
-          document.body.addEventListener("touchleave", mup, false);
-
-      }
-
-      //マウスボタンが上がったら発火
-      function mup(e) {
-          var drag = document.getElementsByClassName("drag")[0];
-
-          //ムーブベントハンドラの消去
-          document.body.removeEventListener("mousemove", mmove, false);
-          drag.removeEventListener("mouseup", mup, false);
-          document.body.removeEventListener("touchmove", mmove, false);
-          drag.removeEventListener("touchend", mup, false);
-
-          //クラス名 .drag も消す
-          drag.classList.remove("drag");
-      }
-
-  })()
-  </script>
+  <script type="text/javascript" src="main.js"></script>
 </body>
 </html>

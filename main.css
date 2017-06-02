@@ -1,0 +1,142 @@
+html {
+  background: radial-gradient(#999, #eee);
+}
+h1 {
+  font-size: 1.2em;
+}
+.monitor {
+  width: 1024px;
+  height: 576px;
+  overflow: hidden;
+  /*background-image: url('img/back.jpg');*/
+}
+.monitor img {
+  width: 100%;
+}
+.dad {
+    cursor: move;
+    position: absolute;
+    /*z-index: 100;*/
+    width: 38px;
+    height: 38px;
+}
+.dad:hover:after {
+  content: '';
+  position: relative;
+  background: red;
+  display: block;
+  top: -170px;
+  right: -20px;
+  width: 330px;
+  height: 170px;
+  z-index: 1000;
+
+}
+/* icon */
+.s1 {background-position: -10px -62px; }
+.s2 {background-position: -330px -62px; }
+.s3 {background-position: -10px -232px; }
+.s4 {background-position: -330px -232px; }
+.s5 {background-position: -10px -402px; }
+.s6 {background-position: -330px -402px; }
+.s7 {background-position: -10px -562px; }
+.s8 {background-position: -330px -562px; }
+.s9 {background-position: -10px -722px; }
+.s10 {background-position: -330px -722px; }
+.s11 {background-position: -10px -1160px; }
+.s12 {background-position: -330px -1160px; }
+.s13 {background-position: -10px -1375px; }
+.s14 {background-position: -330px -1375px; }
+.s15 {background-position: -10px -1546px; }
+.s16 {background-position: -330px -1546px; }
+
+/* detail */
+.s1:hover:after {background-position: 0px -55px;}
+.s2:hover:after {background-position: -320px -55px;}
+.s3:hover:after {background-position: 0px -225px;}
+.s4:hover:after {background-position: -320px -225px;}
+.s5:hover:after {background-position: 0px -395px;}
+.s6:hover:after {background-position: -320px -395px;}
+.s7:hover:after {background-position: 0px -555px;}
+.s8:hover:after {background-position: -320px -555px;}
+.s9:hover:after {background-position: 0px -725px;}
+.s10:hover:after {background-position: -320px -725px;}
+.s11:hover:after {background-position: 0px -1158px;}
+.s12:hover:after {background-position: -320px -1158px;}
+.s13:hover:after {background-position: 0px -1372px;}
+.s14:hover:after {background-position: -320px -1372px;}
+.s15:hover:after {background-position: 0px -1542px;}
+.s16:hover:after {background-position: -320px -1542px;}
+
+#dpsL div, #dpsL div:after{background-image: url('img/dpsL.jpg');}
+#dpsL div.s1{ top: 720px; left: 510px;}
+#dpsL div.s2{ top: 720px; left: 540px;}
+
+#bard1 div, #bard1 div:after{background-image: url('img/bard1.jpg');}
+#bard2 div, #bard2 div:after{background-image: url('img/bard2.jpg');}
+#bard1 div.s1{ top: 820px; left: 510px;}
+#bard1 div.s2{ top: 860px; left: 510px;}
+#bard1 div.s3{ top: 900px; left: 510px;}
+#bard1 div.s4{ top: 940px; left: 510px;}
+#bard1 div.s5{ top: 980px; left: 510px;}
+#bard1 div.s6{ top: 1020px; left: 510px;}
+#bard1 div.s7{ top: 1060px; left: 510px;}
+#bard1 div.s8{ top: 1100px; left: 510px;}
+#bard1 div.s9{ top: 1140px; left: 510px;}
+#bard1 div.s10{ top: 1180px; left: 510px;}
+#bard2 div.s1{ top: 820px; left: 540px;}
+#bard2 div.s2{ top: 860px; left: 540px;}
+#bard2 div.s3{ top: 900px; left: 540px; background-position: -10px -282px;}
+#bard2 div.s3:hover:after{ background-position: 0px -308px;}
+#bard2 div.s4{ top: 940px; left: 540px; background-position: -330px -282px;}
+#bard2 div.s4:hover:after{ background-position: -320px -282px;}
+#bard2 div.s5{ top: 980px; left: 540px; background-position: -10px -523px;}
+#bard2 div.s5:hover:after{ background-position: 0px -520px;}
+#bard2 div.s6{ top: 1020px; left: 540px; background-position: -330px -523px;}
+#bard2 div.s6:hover:after{ background-position: -320px -540px;}
+#bard2 div.s7{ top: 1060px; left: 540px;background-position: -10px -758px;}
+#bard2 div.s7:hover:after{ background-position: 0px -755px;}
+#bard2 div.s8{ top: 1100px; left: 540px; background-position: -330px -758px;}
+#bard2 div.s8:hover:after{ background-position: -320px -755px;}
+#bard2 div.s9{ top: 1140px; left: 540px; background-position: -10px -965px;}
+#bard2 div.s9:hover:after{ background-position: 0px -965px;}
+#bard2 div.s10{ top: 1180px; left: 540px; background-position: -330px -965px;}
+#bard2 div.s10:hover:after{ background-position: -320px -965px;}
+#bard2 div.s11{ top: 1220px; left: 540px;}
+#bard2 div.s12{ top: 1260px; left: 540px;}
+#bard2 div.s13{ top: 1300px; left: 540px;}
+#bard2 div.s14{ top: 1340px; left: 540px;}
+#bard2 div.s15{ top: 1380px; left: 540px;}
+#bard2 div.s16{ top: 1420px; left: 540px;}
+
+.drag {
+    z-index: 1001;
+    opacity: 0.5;
+    border: 2px red solid;
+}
+.drag:hover:after {
+  width: 0;
+}
+
+td {
+  vertical-align: top;
+  text-align: center;
+}
+.t_common {
+  height: 90px;
+}
+.t_uniq {
+  height: 700px;
+}
+.t_uniq>td {
+  background: #999;
+}
+.role {
+  width: 1024px;
+}
+.tank { background: #99d }
+.dps_1 { background: #d9a }
+.dps_2 { background: #da9 }
+.dps_3 { background: #d99 }
+.healer { background: #8d8 }
+
