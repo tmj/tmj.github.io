@@ -66,18 +66,68 @@ h1 {
 .s15:hover:after {background-position: 0px -1542px;}
 .s16:hover:after {background-position: -320px -1542px;}
 
+/* role skill */
+#tank div, #tank div:after{background-image: url('img/tank.jpg');}
+#tank div.s1{ top: 720px; left: 60px;}
+#tank div.s2{ top: 720px; left: 90px;}
+#tank div.s3{ top: 720px; left: 120px; background-position: -10px -220px;}
+#tank div.s4{ top: 720px; left: 150px; background-position: -330px -220px;}
+#tank div.s5{ top: 720px; left: 180px; background-position: -10px -380px;}
+#tank div.s6{ top: 755px; left: 60px;  background-position: -330px -380px;}
+#tank div.s7{ top: 755px; left: 90px;  background-position: -10px -540px;}
+#tank div.s8{ top: 755px; left: 120px; background-position: -330px -540px;}
+#tank div.s9{ top: 755px; left: 150px; background-position: -10px -700px;}
+#tank div.s10{ top: 755px; left: 180px;background-position: -330px -700px;}
+
+#dpsS div, #dpsS div:after{background-image: url('img/dpsS.jpg');}
+#dpsS div.s1{ top: 720px; left: 260px;}
+#dpsS div.s2{ top: 720px; left: 290px;}
+#dpsS div.s3{ top: 720px; left: 320px;}
+#dpsS div.s4{ top: 720px; left: 350px;}
+#dpsS div.s5{ top: 720px; left: 380px;}
+#dpsS div.s6{ top: 755px; left: 260px;}
+#dpsS div.s7{ top: 755px; left: 290px;}
+#dpsS div.s8{ top: 755px; left: 320px;}
+#dpsS div.s9{ top: 755px; left: 350px; background-position: -10px -730px;}
+#dpsS div.s10{ top: 755px; left: 380px;background-position: -330px -730px;}
+
 #dpsL div, #dpsL div:after{background-image: url('img/dpsL.jpg');}
 #dpsL div.s1{ top: 720px; left: 490px;}
 #dpsL div.s2{ top: 720px; left: 520px;}
 #dpsL div.s3{ top: 720px; left: 550px;}
 #dpsL div.s4{ top: 720px; left: 580px;}
 #dpsL div.s5{ top: 720px; left: 610px; background-position: -10px -420px;}
-#dpsL div.s6{ top: 750px; left: 490px; background-position: -330px -420px;}
-#dpsL div.s7{ top: 750px; left: 520px; background-position: -10px -580px;}
-#dpsL div.s8{ top: 750px; left: 550px; background-position: -330px -580px;}
-#dpsL div.s9{ top: 750px; left: 580px; background-position: -10px -735px;}
-#dpsL div.s10{ top: 750px; left: 610px;background-position: -330px -735px;}
+#dpsL div.s6{ top: 755px; left: 490px; background-position: -330px -420px;}
+#dpsL div.s7{ top: 755px; left: 520px; background-position: -10px -580px;}
+#dpsL div.s8{ top: 755px; left: 550px; background-position: -330px -580px;}
+#dpsL div.s9{ top: 755px; left: 580px; background-position: -10px -735px;}
+#dpsL div.s10{ top: 755px; left: 610px;background-position: -330px -735px;}
 
+#dpsM div, #dpsM div:after{background-image: url('img/dpsM.jpg');}
+#dpsM div.s1{ top: 720px; left: 660px;}
+#dpsM div.s2{ top: 720px; left: 690px;}
+#dpsM div.s3{ top: 720px; left: 720px;}
+#dpsM div.s4{ top: 720px; left: 750px;}
+#dpsM div.s5{ top: 720px; left: 780px;}
+#dpsM div.s6{ top: 755px; left: 660px;}
+#dpsM div.s7{ top: 755px; left: 690px;  background-position: -10px -580px;}
+#dpsM div.s8{ top: 755px; left: 720px;  background-position: -330px -580px;}
+#dpsM div.s9{ top: 755px; left: 750px;  background-position: -10px -750px;}
+#dpsM div.s10{ top: 755px; left: 780px; background-position: -330px -750px;}
+
+#healer div, #healer div:after{background-image: url('img/healer.jpg');}
+#healer div.s1{ top: 720px; left: 860px;}
+#healer div.s2{ top: 720px; left: 890px;}
+#healer div.s3{ top: 720px; left: 920px;}
+#healer div.s4{ top: 720px; left: 950px;}
+#healer div.s5{ top: 720px; left: 980px;  background-position: -10px -390px;}
+#healer div.s6{ top: 755px; left: 860px;  background-position: -330px -390px;}
+#healer div.s7{ top: 755px; left: 890px;  background-position: -10px -570px;}
+#healer div.s8{ top: 755px; left: 920px;  background-position: -330px -570px;}
+#healer div.s9{ top: 755px; left: 950px;  background-position: -10px -765px;}
+#healer div.s10{ top: 755px; left: 980px; background-position: -330px -765px;}
+
+ /* uniq skill */
 #bard1 div, #bard1 div:after{background-image: url('img/bard1.jpg');}
 #bard2 div, #bard2 div:after{background-image: url('img/bard2.jpg');}
 #bard1 div.s1{ top: 820px; left: 510px;}
@@ -115,6 +165,41 @@ h1 {
 #bard2 div.s15{ top: 1380px; left: 540px;}
 #bard2 div.s16{ top: 1420px; left: 540px;}
 
+#knight1 div, #knight1 div:after{background-image: url('img/knight1.jpg');}
+#knight1 div.s1{ top: 820px; left: 45px;}
+#knight1 div.s2{ top: 860px; left: 45px;}
+#knight1 div.s3{ top: 900px; left: 45px;}
+#knight1 div.s4{ top: 940px; left: 45px;}
+#knight1 div.s5{ top: 980px; left: 45px;}
+#knight1 div.s6{ top: 1020px; left: 45px;}
+#knight1 div.s7{ top: 1060px; left: 45px;}
+#knight1 div.s8{ top: 1100px; left: 45px;}
+#knight1 div.s9{ top: 1140px; left: 45px;}
+#knight1 div.s10{ top: 1180px; left: 45px;}
+#knight2 div, #knight2 div:after{background-image: url('img/knight2.jpg');}
+#knight2 div.s1{ top: 820px; left: 85px;}
+#knight2 div.s2{ top: 860px; left: 85px;}
+#knight2 div.s3{ top: 900px; left: 85px; background-position: -10px -258px;}
+#knight2 div.s4{ top: 940px; left: 85px; background-position: -330px -258px;}
+#knight2 div.s5{ top: 980px; left: 85px; background-position: -10px -415px;}
+#knight2 div.s6{ top: 1020px; left: 85px; background-position: -330px -415px;}
+#knight2 div.s7{ top: 1060px; left: 85px;  background-position: -10px -576px;}
+#knight2 div.s8{ top: 1100px; left: 85px;  background-position: -330px -576px;}
+#knight2 div.s9{ top: 1140px; left: 85px;  background-position: -10px -760px;}
+#knight2 div.s10{ top: 1180px; left: 85px; background-position: -330px -760px;}
+#knight2 div.s11{ top: 1220px; left: 85px; background-position: -10px -970px;}
+#knight2 div.s11:hover:after{ background-position: 0px -965px;}
+#knight2 div.s12{ top: 1260px; left: 85px; background-position: -330px -970px;}
+#knight2 div.s12:hover:after{ background-position: -320px -965px;}
+#knight2 div.s13{ top: 1300px; left: 85px; background-position: -10px -1175px;}
+#knight2 div.s13:hover:after{ background-position: 0px -1170px;}
+#knight2 div.s14{ top: 1340px; left: 85px; background-position: -330px -1175px;}
+#knight2 div.s14:hover:after{ background-position: -320px -1170px;}
+#knight2 div.s15{ top: 1380px; left: 85px; background-position: -10px -1370px;}
+#knight2 div.s15:hover:after{ background-position: -0px -1370px;}
+
+
+/* drag system */
 .drag {
     z-index: 1001;
     opacity: 0.5;
