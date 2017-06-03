@@ -313,20 +313,108 @@ h1 {
 #samon1 div, #samon1 div:after{background-image: url('img/samon1.jpg');}
 #samon1 div.s1{ top: 820px; left: 690px;}
 #samon1 div.s2{ top: 860px; left: 690px;}
-#samon1 div.s3{ top: 900px; left: 690px; background-position: -10px -233px;}
-#samon1 div.s4{ top: 940px; left: 690px; background-position: -330px -233px;}
-#samon1 div.s5{ top: 980px; left: 690px; background-position: -10px -402px;}
-#samon1 div.s6{ top: 1020px; left: 690px;background-position: -330px -402px;}
-#samon1 div.s7{ top: 1060px; left: 690px;background-position: -10px -548px;}
-#samon1 div.s8{ top: 1100px; left: 690px;background-position: -330px -548px;}
-#samon1 div.s9{ top: 1140px; left: 690px;background-position: -10px -707px;}
-#samon1 div.s9:hover:after{ background-position: 0px -700px;}
-#samon1 div.s10{ top: 1180px; left: 690px;background-position: -330px -707px;}
-#samon1 div.s10:hover:after{ background-position: -320px -700px;}
-#samon1 div.s11{ top: 1220px; left: 690px;background-position: -10px -866px;}
-#samon1 div.s11:hover:after{ background-position: 0px -860px;}
-#samon1 div.s12{ top: 1260px; left: 690px;background-position: -330px -866px;}
-#samon1 div.s12:hover:after{ background-position: -320px -860px;}
+#samon1 div.s3{ top: 900px; left: 690px; background-position: -10px -220px;}
+#samon1 div.s3:hover:after{ background-position: 0px -220px;}
+#samon1 div.s4{ top: 940px; left: 690px; background-position: -330px -220px;}
+#samon1 div.s4:hover:after{ background-position: -320px -220px;}
+#samon1 div.s5{ top: 980px; left: 690px; background-position: -10px -364px;}
+#samon1 div.s5:hover:after{ background-position: 0px -360px;}
+#samon1 div.s6{ top: 1020px; left: 690px;background-position: -330px -364px;}
+#samon1 div.s6:hover:after{ background-position: -320px -360px;}
+#samon1 div.s7{ top: 1060px; left: 690px;background-position: -10px -555px;}
+#samon1 div.s7:hover:after{ background-position: 0px -550px;}
+#samon1 div.s8{ top: 1100px; left: 690px;background-position: -330px -555px;}
+#samon1 div.s8:hover:after{ background-position: -320px -550px;}
+#samon1 div.s9{ top: 1140px; left: 690px;background-position: -10px -727px;}
+#samon1 div.s9:hover:after{ background-position: 0px -720px;}
+#samon1 div.s10{ top: 1180px; left: 690px;background-position: -330px -727px;}
+#samon1 div.s10:hover:after{ background-position: -320px -720px;}
+#samon1 div.s11{ top: 1220px; left: 690px;background-position: -10px -888px;}
+#samon1 div.s11:hover:after{ background-position: 0px -880px;}
+#samon1 div.s12{ top: 1260px; left: 690px;background-position: -330px -888px;}
+#samon1 div.s12:hover:after{ background-position: -320px -880px;}
+#samon1 div.s13{ top: 1300px; left: 690px;background-position: -10px -1179px;}
+#samon1 div.s13:hover:after{ background-position: 0px -1170px;}
+#samon1 div.s14{ top: 1340px; left: 690px;background-position: -330px -1179px;}
+#samon1 div.s14:hover:after{ background-position: -320px -1170px;}
+
+#samon2 div, #samon2 div:after{background-image: url('img/samon2.jpg');}
+#samon2 div.s1{ top: 820px; left: 730px;}
+#samon2 div.s2{ top: 860px; left: 730px;}
+#samon2 div.s3{ top: 900px; left: 730px; background-position: -10px -297px;}
+#samon2 div.s3:hover:after{ background-position: 0px -290px;}
+#samon2 div.s4{ top: 940px; left: 730px; background-position: -330px -297px;}
+#samon2 div.s4:hover:after{ background-position: -320px -290px;}
+#samon2 div.s5{ top: 980px; left: 730px; background-position: -10px -452px;}
+#samon2 div.s5:hover:after{ background-position: 0px -450px;}
+#samon2 div.s6{ top: 1020px; left: 730px;background-position: -330px -452px;}
+#samon2 div.s6:hover:after{ background-position: -320px -450px;}
+#samon2 div.s7{ top: 1060px; left: 730px;background-position: -10px -621px;}
+#samon2 div.s7:hover:after{ background-position: 0px -620px;}
+#samon2 div.s8{ top: 1100px; left: 730px;background-position: -330px -621px;}
+#samon2 div.s8:hover:after{ background-position: -320px -620px;}
+#samon2 div.s9{ top: 1140px; left: 730px;background-position: -10px -880px;}
+#samon2 div.s9:hover:after{ background-position: 0px -880px;}
+#samon2 div.s10{ top: 1180px; left: 730px;background-position: -330px -880px;}
+#samon2 div.s10:hover:after{ background-position: -320px -880px;}
+#samon2 div.s11{ top: 1220px; left: 730px;background-position: -10px -1052px;}
+#samon2 div.s11:hover:after{ background-position: 0px -1050px;}
+#samon2 div.s12{ top: 1260px; left: 730px;background-position: -330px -1052px;}
+#samon2 div.s12:hover:after{ background-position: -320px -1050px;}
+#samon2 div.s13{ top: 1300px; left: 730px; background-position: -10px -1210px;}
+#samon2 div.s13:hover:after{ background-position: 0px -1210px;}
+#samon2 div.s14{ top: 1340px; left: 730px; background-position: -330px -1210px;}
+#samon2 div.s14:hover:after{ background-position: -320px -1210px;}
+#samon2 div.s15{ top: 1380px; left: 730px; background-position: -10px -1419px;}
+#samon2 div.s15:hover:after{ background-position: 0px -1410px;}
+#samon2 div.s16{ top: 1420px; left: 730px;background-position: -330px -1419px;}
+#samon2 div.s16:hover:after{ background-position: -320px -1410px;}
+#samon2 div.s17{ top: 1460px; left: 730px;background-position: -10px -1584px;}
+#samon2 div.s17:hover:after{ background-position: 0px -1580px;}
+#samon2 div.s18{ top: 1500px; left: 730px;background-position: -330px -1584px;}
+#samon2 div.s18:hover:after{ background-position: -320px -1580px;}
+
+#samon3 div, #samon3 div:after{background-image: url('img/samon3.jpg');}
+#samon3 div.s1{ top: 820px; left: 770px;}
+#samon3 div.s2{ top: 860px; left: 770px;}
+#samon3 div.s3{ top: 900px; left: 770px; background-position: -10px -138px;}
+#samon3 div.s3:hover:after{ background-position: 0px -130px;}
+#samon3 div.s4{ top: 940px; left: 770px; background-position: -330px -138px;}
+#samon3 div.s4:hover:after{ background-position: -320px -130px;}
+#samon3 div.s5{ top: 980px; left: 770px; background-position: -10px -212px;}
+#samon3 div.s5:hover:after{ background-position: 0px -210px;}
+#samon3 div.s6{ top: 1020px; left: 770px;background-position: -330px -212px;}
+#samon3 div.s6:hover:after{ background-position: -320px -210px;}
+#samon3 div.s7{ top: 1060px; left: 770px;background-position: -10px -299px;}
+#samon3 div.s7:hover:after{ background-position: 0px -290px;}
+#samon3 div.s8{ top: 1100px; left: 770px;background-position: -330px -299px;}
+#samon3 div.s8:hover:after{ background-position: -320px -290px;}
+#samon3 div.s9{ top: 1140px; left: 770px;background-position: -10px -385px;}
+#samon3 div.s9:hover:after{ background-position: 0px -380px;}
+#samon3 div.s10{ top: 1180px; left: 770px;background-position: -330px -385px;}
+#samon3 div.s10:hover:after{ background-position: -320px -380px;}
+#samon3 div.s11{ top: 1220px; left: 770px;background-position: -10px -554px;}
+#samon3 div.s11:hover:after{ background-position: 0px -550px;}
+#samon3 div.s12{ top: 1260px; left: 770px;background-position: -330px -554px;}
+#samon3 div.s12:hover:after{ background-position: -320px -550px;}
+#samon3 div.s13{ top: 1300px; left: 770px; background-position: -10px -713px;}
+#samon3 div.s13:hover:after{ background-position: 0px -710px;}
+#samon3 div.s14{ top: 1340px; left: 770px; background-position: -330px -713px;}
+#samon3 div.s14:hover:after{ background-position: -320px -710px;}
+#samon3 div.s15{ top: 1380px; left: 770px; background-position: -10px -882px;}
+#samon3 div.s15:hover:after{ background-position: 0px -880px;}
+#samon3 div.s16{ top: 1420px; left: 770px;background-position: -330px -882px;}
+#samon3 div.s16:hover:after{ background-position: -320px -880px;}
+#samon3 div.s17{ top: 1460px; left: 770px;background-position: -10px -1052px;}
+#samon3 div.s17:hover:after{ background-position: 0px -1050px;}
+#samon3 div.s18{ top: 1500px; left: 770px;background-position: -330px -1052px;}
+#samon3 div.s18:hover:after{ background-position: -320px -1050px;}
+#samon3 div.s19{ top: 1540px; left: 770px;background-position: -10px -1222px;}
+#samon3 div.s19:hover:after{ background-position: 0px -1220px;}
+#samon3 div.s20{ top: 1580px; left: 770px;background-position: -330px -1222px;}
+#samon3 div.s20:hover:after{ background-position: -320px -1220px;}
+#samon3 div.s21{ top: 1620px; left: 770px;background-position: -10px -1429px;}
+#samon3 div.s21:hover:after{ background-position: 0px -1420px;}
 
 
 /* drag system */
